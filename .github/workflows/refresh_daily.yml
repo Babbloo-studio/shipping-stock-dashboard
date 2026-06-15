@@ -1,0 +1,41 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'   # 06:00 UTC Mon-Fri (after Baltic Exchange publishes)
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run daily pipeline
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          uv run python -c "
+          from src.models.pipeline import run_full_pipeline
+          import os, json
+          df = run_full_pipeline()
+          os.makedirs('data/fundamentals', exist_ok=True)
+          from datetime import date
+          df.to_parquet(f'data/fundamentals/{date.today()}.parquet', index=False)
+          print(f'Saved {len(df)} rows')
+          "
+
+      - name: Commit data snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/fundamentals/
+          git diff --staged --quiet || git commit -m "data: daily fundamentals snapshot $(date -u +%Y-%m-%d)"
+          git push

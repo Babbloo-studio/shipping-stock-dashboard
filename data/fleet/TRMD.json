@@ -1,0 +1,15 @@
+{
+  "ticker": "TRMD",
+  "total_vessels": 84,
+  "vessel_groups": [
+    {"type": "LR2", "count": 8, "avg_age_years": 9.2, "avg_dwt": 115000, "eco_fitted": true, "scrubber_fitted": false},
+    {"type": "MR", "count": 76, "avg_age_years": 10.4, "avg_dwt": 50000, "eco_fitted": false, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 1420,
+  "cash_usd_millions": 310,
+  "shares_outstanding_millions": 106,
+  "charter_coverage_pct": 20,
+  "avg_tc_rate_per_day": 21000,
+  "opex_per_day": 7800,
+  "interest_per_day": 3600
+}

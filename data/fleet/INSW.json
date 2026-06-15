@@ -1,0 +1,17 @@
+{
+  "ticker": "INSW",
+  "total_vessels": 58,
+  "vessel_groups": [
+    {"type": "VLCC", "count": 14, "avg_age_years": 10.2, "avg_dwt": 299000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "Suezmax", "count": 12, "avg_age_years": 11.8, "avg_dwt": 157000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "Aframax", "count": 18, "avg_age_years": 13.5, "avg_dwt": 105000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "MR", "count": 14, "avg_age_years": 8.7, "avg_dwt": 50000, "eco_fitted": true, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 980,
+  "cash_usd_millions": 210,
+  "shares_outstanding_millions": 34,
+  "charter_coverage_pct": 18,
+  "avg_tc_rate_per_day": 32000,
+  "opex_per_day": 8600,
+  "interest_per_day": 2800
+}

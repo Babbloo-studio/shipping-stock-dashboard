@@ -1,0 +1,19 @@
+{
+  "ticker": "NMM",
+  "total_vessels": 190,
+  "vessel_groups": [
+    {"type": "Container", "count": 48, "avg_age_years": 13.2, "avg_dwt": 60000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "Capesize", "count": 22, "avg_age_years": 10.4, "avg_dwt": 180000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "Panamax_Bulk", "count": 46, "avg_age_years": 11.8, "avg_dwt": 82000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "MR_Tanker", "count": 28, "avg_age_years": 9.6, "avg_dwt": 50000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "VLCC", "count": 8, "avg_age_years": 14.2, "avg_dwt": 299000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "LPG", "count": 38, "avg_age_years": 8.8, "avg_dwt": 35000, "eco_fitted": true, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 3100,
+  "cash_usd_millions": 580,
+  "shares_outstanding_millions": 80,
+  "charter_coverage_pct": 55,
+  "avg_tc_rate_per_day": 16000,
+  "opex_per_day": 8000,
+  "interest_per_day": 8200
+}

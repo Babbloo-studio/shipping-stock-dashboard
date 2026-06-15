@@ -1,0 +1,17 @@
+{
+  "ticker": "SBLK",
+  "total_vessels": 128,
+  "vessel_groups": [
+    {"type": "Capesize", "count": 17, "avg_age_years": 11.2, "avg_dwt": 180000, "eco_fitted": false, "scrubber_fitted": true},
+    {"type": "Panamax", "count": 45, "avg_age_years": 10.8, "avg_dwt": 82000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "Supramax", "count": 56, "avg_age_years": 12.1, "avg_dwt": 58000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "Handysize", "count": 10, "avg_age_years": 13.4, "avg_dwt": 38000, "eco_fitted": false, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 1650,
+  "cash_usd_millions": 420,
+  "shares_outstanding_millions": 91,
+  "charter_coverage_pct": 10,
+  "avg_tc_rate_per_day": 14000,
+  "opex_per_day": 6800,
+  "interest_per_day": 4100
+}

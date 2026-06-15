@@ -1,0 +1,16 @@
+{
+  "ticker": "FRO",
+  "total_vessels": 69,
+  "vessel_groups": [
+    {"type": "VLCC", "count": 41, "avg_age_years": 8.2, "avg_dwt": 299000, "eco_fitted": true, "scrubber_fitted": true},
+    {"type": "Suezmax", "count": 19, "avg_age_years": 9.1, "avg_dwt": 157000, "eco_fitted": true, "scrubber_fitted": false},
+    {"type": "LR2", "count": 9, "avg_age_years": 6.8, "avg_dwt": 115000, "eco_fitted": true, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 3200,
+  "cash_usd_millions": 420,
+  "shares_outstanding_millions": 224,
+  "charter_coverage_pct": 22,
+  "avg_tc_rate_per_day": 38500,
+  "opex_per_day": 9200,
+  "interest_per_day": 4100
+}

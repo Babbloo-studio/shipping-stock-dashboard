@@ -1,0 +1,15 @@
+{
+  "ticker": "GLNG",
+  "total_vessels": 9,
+  "vessel_groups": [
+    {"type": "LNGC", "count": 5, "avg_age_years": 14.2, "avg_dwt": 126000, "eco_fitted": false, "scrubber_fitted": false},
+    {"type": "FSRU", "count": 4, "avg_age_years": 9.8, "avg_dwt": 160000, "eco_fitted": false, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 820,
+  "cash_usd_millions": 380,
+  "shares_outstanding_millions": 98,
+  "charter_coverage_pct": 65,
+  "avg_tc_rate_per_day": 55000,
+  "opex_per_day": 14000,
+  "interest_per_day": 2200
+}

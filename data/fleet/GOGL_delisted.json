@@ -1,0 +1,15 @@
+{
+  "ticker": "GOGL",
+  "total_vessels": 82,
+  "vessel_groups": [
+    {"type": "Capesize", "count": 42, "avg_age_years": 7.8, "avg_dwt": 180000, "eco_fitted": true, "scrubber_fitted": true},
+    {"type": "Panamax", "count": 40, "avg_age_years": 9.2, "avg_dwt": 82000, "eco_fitted": false, "scrubber_fitted": false}
+  ],
+  "net_debt_usd_millions": 1480,
+  "cash_usd_millions": 280,
+  "shares_outstanding_millions": 200,
+  "charter_coverage_pct": 8,
+  "avg_tc_rate_per_day": 18000,
+  "opex_per_day": 7200,
+  "interest_per_day": 3200
+}

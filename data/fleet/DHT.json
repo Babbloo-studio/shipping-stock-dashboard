@@ -1,0 +1,14 @@
+{
+  "ticker": "DHT",
+  "total_vessels": 23,
+  "vessel_groups": [
+    {"type": "VLCC", "count": 23, "avg_age_years": 11.4, "avg_dwt": 299000, "eco_fitted": false, "scrubber_fitted": true}
+  ],
+  "net_debt_usd_millions": 620,
+  "cash_usd_millions": 180,
+  "shares_outstanding_millions": 171,
+  "charter_coverage_pct": 15,
+  "avg_tc_rate_per_day": 36000,
+  "opex_per_day": 8800,
+  "interest_per_day": 1100
+}
